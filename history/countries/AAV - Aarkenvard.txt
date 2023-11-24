@@ -1,8 +1,15 @@
-capital = 378
+capital = 183
 oob = "AAV_1936"
 set_research_slots = 3
 set_stability = 0.73
 set_war_support = 0.4
+
+set_oob = "AAV_naval_1936"
+
+recruit_character = AAV_Gogenos_Iirn_Gramat
+recruit_character = AAV_Hasslin_Thoro
+recruit_character = AAV_Ivant
+recruit_character = AAV_Tourmaintov
 
 add_ideas = {
 	# laws

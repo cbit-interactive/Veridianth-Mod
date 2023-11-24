@@ -68,49 +68,49 @@ units = {
 	division = {
 		name = "Klapitale Perimi"
 		division_template = "Imeperili Arkenkloresr"
-		location = 9713
+		location = 11984
 	}
 	division = {
 		name = "Klapitale Perimi #1"
 		division_template = "Imeperili Arkenkloresr"
-		location = 9713
+		location = 11984
 	}
 	division = {
 		name = "Klapitale Perimi #2"
 		division_template = "Imeperili Arkenkloresr"
-		location = 9713
+		location = 11984
 	}
 	division = {
 		name = "Klapitale Perimi #3"
 		division_template = "Imeperili Arkenkloresr"
-		location = 9713
+		location = 11984
 	}
 	division = {
 		name = "Klapitale Perimi #4"
 		division_template = "Imeperili Egukloresr"
-		location = 9713
+		location = 11984
 	}
 
 	#############################################
 	## Secondary
 	division = {
 		name = "Anegel Perimi"
-		location = 9814
+		location = 919
 		division_template = "Imeperili Egukloresr"
 	}
 	division = {
 		name = "Kloresr vi Sanecti-Franeci"
-		location = 9671
+		location = 9833
 		division_template = "Imeperili Egukloresr"
 	}
 	division = {
 		name = "Duraserkloresr vi Sanecti-Franeci"
-		location = 9671
+		location = 9833
 		division_template = "Arken Duraserkloresr"
 	}
 	division = {
 		name = "Duraserkloresr vi Klarivornia #1"
-		location = 610
+		location = 11829
 		division_template = "Arken Duraserkloresr"
 	}
 }

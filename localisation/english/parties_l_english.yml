@@ -1,2 +1,5 @@
 ﻿l_english:
- #AAV_communism_party:0 "Voarkenali Partíta"
+ AAV_communism_party:0 "Voarkenali Partíta"
+ AAV_neutrality_party:0 "Monarikiapartíta"
+ AAV_democratic_party:0 "Demokraticiapartíta"
+ AAV_fascism_party:0 "Fashismotpartíta"

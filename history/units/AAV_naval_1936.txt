@@ -1,0 +1,92 @@
+units = {
+    fleet = {
+        name = "Imeperili Navallicohor"
+        naval_base = 7193
+        task_force = {
+            name = "Imperial Fleet Force"
+            location = 7193
+            ship = {
+                name = "AAV Aardvark"
+                definition = battleship
+                equipment = {
+                    battleship_1 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Cyprioit Class"
+                    }
+                }
+            }
+			ship = {
+                name = "AAV Yolioit"
+                definition = battleship
+                equipment = {
+                    battleship_1 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Cyprioit Class"
+                    }
+                }
+            }
+			ship = {
+                name = "AAV Unity"
+                definition = battleship
+                equipment = {
+                    battleship_1 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Cyprioit Class"
+                    }
+                }
+            }
+        }
+
+		task_force = {
+            name = "Submarine Force"
+            location = 9833
+            ship = {
+                name = "AAV Mare"
+                definition = submarine
+                equipment = {
+                    submarine_1 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Clara Class"
+                    }
+                }
+            }
+			ship = {
+                name = "AAV Noivilona"
+                definition = submarine
+                equipment = {
+                    submarine_2 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Clara 2 Class"
+                    }
+                }
+            }
+			ship = {
+                name = "AAV Gjarinkarsta"
+                definition = submarine
+                equipment = {
+                    submarine_1 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Clara Class"
+                    }
+                }
+            }
+			ship = {
+                name = "AAV Toiu"
+                definition = destroyer
+                equipment = {
+                    destroyer_2 = {
+                        amount = 1
+                        owner = AAV
+                        version_name = "Nomeit Class"
+                    }
+                }
+            }
+        }
+    }
+}

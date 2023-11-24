@@ -1,0 +1,18 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_leaders_aav_Gogenos
+        texturefile = gfx/leaders/AAV/GogenosIirngramat.dds
+    }
+    spriteType = {
+        name = GFX_leaders_aav_Hasslin
+        textureFile = gfx/leaders/AAV/HasslinThoro.tga
+    }
+    spriteType = {
+        name = GFX_leaders_aav_Ivant
+        textureFile = gfx/leaders/AAV/Ivant.dds
+    }
+    spriteType = {
+        name = GFX_leaders_aav_Tourmaintov
+        textureFile = gfx/leaders/AAV/Tourmaintov.dds
+    }
+}

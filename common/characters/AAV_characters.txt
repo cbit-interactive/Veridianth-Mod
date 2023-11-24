@@ -1,0 +1,86 @@
+characters = {
+    AAV_Gogenos_Iirn_Gramat = {
+        name = AAV_Gogenos_Iirn_Gramat
+        portraits = {
+            civilian = {
+                large = GFX_leaders_aav_Gogenos
+            }
+        }
+        country_leader = {
+            ideology = moderatism
+            traits = { war_industrialist great_war_hero }
+        }
+    }
+    AAV_Hasslin_Thoro = {
+        name = AAV_Hasslin_Thoro
+        portraits = {
+            civilian = {
+                large = GFX_leaders_aav_Hasslin
+            }
+            army = {
+                large = GFX_leaders_aav_Hasslin
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            traits = {
+                guerilla_warfare_expert great_war_hero headstrong humble
+            }
+        }
+        corps_commander = {
+            skill = 5
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 6
+        }
+    }
+    AAV_Ivant = {
+        name = AAV_Ivant
+        portraits = {
+            civilian = {
+                large = GFX_leaders_aav_Ivant
+            }
+        }
+        country_leader = {
+            ideology = marxism
+            traits = {
+                communist_revolutionary conservative_communist warmonger
+            }
+        }
+        corps_commander = {
+            traits = {
+                aggressive_assaulter panzer_expert politically_connected
+            }
+            skill = 2
+            attack_skill = 5
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+        }
+    }
+    AAV_Tourmaintov = {
+        name = AAV_Tourmaintov
+        portraits = {
+            civilian = {
+                large = GFX_leaders_aav_Tourmaintov
+            }
+        }
+        country_leader = {
+            ideology = fascism_ideology
+            traits = {
+                fascist_demagogue warmonger dictator
+            }
+        }
+        corps_commander = {
+            traits = {
+                harsh_leader defensive_doctrine hill_fighter
+            }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 1
+        }
+    }
+}

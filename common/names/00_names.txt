@@ -1,0 +1,18 @@
+AAV = {
+	male = {
+		names = {
+			Hasslin Gogenos Gorgenos Ivant Ivanto Törmaintov Ammonius Timotheus Pachomius Maximilianos Anba Valerius Serapion Teodosius Aloysius Antonius Gebrekiros Isodorus Kyrillos Leontius Amadeus Gregorius Diocletianus
+			Demetrius Cyrpianus Nikodemus Atanasius Cornelius Eusebius Tomas Alphonsus Joachimus Irenaeus Hadrianus Serapta Sylvester Basilides Hieronymus Amonasro Xystus Castorius Hermogenes Tertullianus Severinus Amunsis
+			Ischyrion Florus Origenes Lysimaictoi Greptmoikt Sharaipt Gaimptoi Ambrosoius Tom Boiblic Nostrosicg Marinoitnter
+		}
+	}
+	female = {
+		names = {
+			Anne Marisca Eullema Teodora Anastasia Isodori Demetria Leocanta Ellowenua Gabrela Aákenaástuprektosa
+		}
+	}
+	surnames = {
+		Thoro "Iirn Gramat" Somactas Eliusas Adelhei Eillín Matildè Brunhii Wiggo Bervinas Falkloit Egilla Almericoi Odosoi Llumwinas
+	}
+	callsigns = { "i'Tar" "Toirous" "Viper" "Coraskaman Killer" "Black death" "Domentois"}
+}

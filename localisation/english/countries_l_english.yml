@@ -1,5 +1,20 @@
 ﻿l_english:
  # Main continent - Haronkings, Haroingkongis
+ AAV:0 "A'arkenvard"
+ AAV_def:0 "A'arkenvard"
+ AAV_adj:0 "A'arkenvardan"
+ AAV_democratic:0 "Republica vi A'arkenvard"
+ AAV_democratic_def:0 "the Republica vi A'arkenvard"
+ AAV_democratic_adj:0 "A'arkenvardan"
+ AAV_communism:0 "Populirepublica vi A'arkenvard"
+ AAV_communism_def:0 "the Populirepublica vi A'arkenvard"
+ AAV_communism_adj:0 "A'arkenvardan"
+ AAV_neutrality:0 "Imeperili vi A'arkenvard"
+ AAV_neutrality_def:0 "the Imeperili vi A'arkenvard"
+ AAV_neutrality_adj:0 "A'arkenvardan"
+ AAV_fascism:0 "Grundrenhi vi A'arkenvard"
+ AAV_fascism_def:0 "the Grundrenhi vi A'arkenvard"
+ AAV_fascism_adj:0 "A'arkenvardan"
  # Southern Islands and Continent - Ai Kamoun'jazraqt'alo
  # Far Western Islands - Eldörhīm
  
