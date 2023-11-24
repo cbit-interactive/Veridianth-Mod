@@ -1,0 +1,153 @@
+division_template = {
+	name = "Imeperili Arkenkloresr"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
+		cavalry  = { x = 4 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Imeperili Egukloresr"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 1 y = 3 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+    name = "Arken Duraserkloresr"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        artillery_brigade = { x = 1 y = 1 }
+        artillery_brigade = { x = 1 y = 2 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+    }
+}
+
+######################################
+# OOB
+######################################
+
+units = {
+	##########################################
+	## First Imperial - Imeperili Perimi
+	##########################################
+	division = {
+		name = "Klapitale Perimi"
+		division_template = "Imeperili Arkenkloresr"
+		location = 9713
+	}
+	division = {
+		name = "Klapitale Perimi #1"
+		division_template = "Imeperili Arkenkloresr"
+		location = 9713
+	}
+	division = {
+		name = "Klapitale Perimi #2"
+		division_template = "Imeperili Arkenkloresr"
+		location = 9713
+	}
+	division = {
+		name = "Klapitale Perimi #3"
+		division_template = "Imeperili Arkenkloresr"
+		location = 9713
+	}
+	division = {
+		name = "Klapitale Perimi #4"
+		division_template = "Imeperili Egukloresr"
+		location = 9713
+	}
+
+	#############################################
+	## Secondary
+	division = {
+		name = "Anegel Perimi"
+		location = 9814
+		division_template = "Imeperili Egukloresr"
+	}
+	division = {
+		name = "Kloresr vi Sanecti-Franeci"
+		location = 9671
+		division_template = "Imeperili Egukloresr"
+	}
+	division = {
+		name = "Duraserkloresr vi Sanecti-Franeci"
+		location = 9671
+		division_template = "Arken Duraserkloresr"
+	}
+	division = {
+		name = "Duraserkloresr vi Klarivornia #1"
+		location = 610
+		division_template = "Arken Duraserkloresr"
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AAV"
+		}
+		requested_factories = 6
+		progress = 0.1
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "AAV" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "AAV" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 100
+	}
+}
+#####################
