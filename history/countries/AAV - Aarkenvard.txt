@@ -4,7 +4,7 @@ set_research_slots = 3
 set_stability = 0.73
 set_war_support = 0.4
 
-set_oob = "AAV_naval_1936"
+set_naval_oob = "AAV_naval_1936"
 
 recruit_character = AAV_Gogenos_Iirn_Gramat
 recruit_character = AAV_Hasslin_Thoro
