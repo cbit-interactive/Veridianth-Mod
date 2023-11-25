@@ -1,0 +1,38 @@
+capital = 101
+set_research_slots = 3
+set_stability = 1
+set_war_support = 1
+set_convoys = 3000
+set_oob = "UNP"
+
+recruit_character = UNP_SantaClaus
+
+add_ideas = {
+	UNP_GiftGivers
+	# laws
+	export_focus
+	civilian_economy
+	limited_conscription
+}
+set_technology = {
+	nukes = 1
+	nuclear_reactor = 1
+	advanced_machine_tools = 1
+	concentrated_industry5 = 1
+	infantry_offensive = 1
+	air_superiority = 1
+	air_offense = 1
+	airdrop_mines = 1
+}
+set_popularities = {
+	neutrality = 50
+	democratic = 25
+	fascism = 11
+	communism = 14
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "343.12.6"
+    election_frequency = 48 # Every 4 years
+    elections_allowed = no
+}

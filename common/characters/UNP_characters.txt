@@ -1,0 +1,14 @@
+characters = {
+	UNP_SantaClaus = {
+		name = UNP_SantaClaus
+		portraits = {
+			civilian = {
+				large = GFX_leaders_unp_SantaClaus
+			}
+		}
+		country_leader = {
+            ideology = centrism
+            traits = { humble }
+        }
+	}
+}

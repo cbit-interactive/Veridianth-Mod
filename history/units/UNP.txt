@@ -1,0 +1,43 @@
+division_template = {
+    name = "Santa's Attack Crew"
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        bicycle_battalion = { x = 1 y = 1 }
+        bicycle_battalion = { x = 1 y = 2 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+    }
+}
+
+division_template = {
+    name = "Gift Givers"
+    regiments = {
+        paratrooper = { x = 0 y = 0 }
+        paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+        light_armor = { x = 1 y = 1 }
+        light_armor = { x = 1 y = 2 }
+    }
+    support = {
+        artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+    }
+}
+
+units = {
+	division= {
+        name = "Home Guard"
+        location = 12512 # Nuuk
+        division_template = "Santa's Attack Crew"
+        start_experience_factor = 0.2
+        start_equipment_factor = 0.3
+    }
+}

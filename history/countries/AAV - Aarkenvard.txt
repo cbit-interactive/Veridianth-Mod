@@ -3,6 +3,7 @@ oob = "AAV_1936"
 set_research_slots = 3
 set_stability = 0.73
 set_war_support = 0.4
+set_convoys = 3000
 
 set_naval_oob = "AAV_naval_1936"
 
@@ -12,6 +13,7 @@ recruit_character = AAV_Ivant
 recruit_character = AAV_Tourmaintov
 
 add_ideas = {
+	LoomingWar1
 	# laws
 	war_economy
 	extensive_conscription

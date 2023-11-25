@@ -17,4 +17,19 @@
  AAV_fascism_adj:0 "A'arkenvardan"
  # Southern Islands and Continent - Ai Kamoun'jazraqt'alo
  # Far Western Islands - Eldörhīm
+ UNP:0 "North Pole"
+ UNP_def:0 "the North Pole"
+ UNP_adj:0 "North Poleian"
+ UNP_democratic:0 "Republic of the North Pole"
+ UNP_democratic_def:0 "the Republic of the North Pole"
+ UNP_democratic_adj:0 "North Poleian"
+ UNP_communism:0 "People's Republic of the Poles"
+ UNP_communism_def:0 "the People's Republic of the Poles"
+ UNP_communism_adj:0 "North Poleian"
+ UNP_neutrality:0 "North Pole Kingdom"
+ UNP_neutrality_def:0 "the North Pole Kingdom"
+ UNP_neutrality_adj:0 "North Poleian"
+ UNP_fascism:0 "Popular Present Empire"
+ UNP_fascism_def:0 "the Popular Present Empire"
+ UNP_fascism_adj:0 "North Poleian"
  

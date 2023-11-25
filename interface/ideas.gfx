@@ -1,0 +1,17 @@
+spriteTypes = {
+	#########################
+	## North Pole
+	#########################
+	spriteType = {
+        name = GFX_ideas_unp_GiftGivers
+        textureFile = "gfx/interface/ideas/GiftGivers.dds"
+    }
+	spriteType = {
+        name = GFX_ideas_LoomingWarDefense
+        textureFile = "gfx/interface/ideas/LoomingWarDefense.dds"
+    }
+	spriteType = {
+        name = GFX_ideas_LoomingWarAttack
+        textureFile = "gfx/interface/ideas/LoomingWarAttack.dds"
+    }
+}
